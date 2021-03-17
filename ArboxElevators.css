@@ -1,0 +1,101 @@
+#elevators {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.elevator {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: blue;
+    width: 50px;
+    height: 315px;
+    top: 0px;
+}
+
+.car {
+ 	position: absolute;
+  	bottom: 0px;
+  	background-color: rgb(0, 0, 0);
+    height: 45px;
+    width: 100%;
+    font-size: 12pt;
+    color: #c4c763;
+    overflow: hidden;
+}
+
+.car > div {
+    position: relative;
+    top: -343px;
+}
+
+.car > div > div {
+    position: relative;
+    height: 45px;
+}
+
+
+#buttons {
+    position: relative;
+    height: 314px;
+    width: 52px;
+    padding-top: 23px;
+    margin: 0;
+}
+
+#times {
+    position: relative;
+    float: inline-end;
+    height: 314px;
+    width: 100px;
+    padding: 18px 0px;
+    background-color: rgb(255, 0, 140);
+    margin: 0;
+    
+}
+
+.button-floor {
+    height: 45px;
+}
+
+.button {
+    border: none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 15px;
+    background-color: #00ff15;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: rgb(255, 0, 0);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child{
+    flex: 1;
+    margin-right: 20%;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+
+.time{
+    color: hotpink;
+    margin-top: 11%;
+    font-weight: bold;
+}
+
+.stopwatch{
+    color: red;
+    font-weight: bold;
+    margin-top: 11%;
+}
